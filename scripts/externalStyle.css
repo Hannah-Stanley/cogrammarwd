@@ -1,0 +1,27 @@
+/* External styling */
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: darkblue;
+    padding-top: 20px;
+}
+
+/* ID selector. Need id="heading2" on HTML document */
+#heading2 {
+    text-align:left;
+    font-style: italic;
+
+}
+
+/* Class selector. Need class="endingMessage" in HTML document */
+.endingMessage {
+    text-align: right;
+}
+
+/* only applied to paragraphs with this class */
+p.endingMessage {
+    padding-bottom: 20px;
+
+
+}
