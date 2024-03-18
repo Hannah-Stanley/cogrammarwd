@@ -1,0 +1,23 @@
+.heading {
+  text-align: center;
+  
+}
+
+#image {
+    display: block;
+     margin: 0 auto;
+     width: 40%;
+     height: auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: purple;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}

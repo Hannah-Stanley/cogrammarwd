@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<!--tells the browser this is using the latest version of HTML 5 -->
+<html lang="en">
+    <!-- html tag is the root tag-->
+    <head>
+        <!-- head contains the metadata about the page-->
+        <meta charset="UTF-8"/> 
+        <!-- sets the character encoding of the page-->
+
+        <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+        <!--sets the page to be loaded with the width of the device and zoom 1x-->
+        <!-- viewport refers to the visible area of the webpage-->
+
+        <title> Hello CoGrammar </title>
+        <!-- in the tab the top of the page-->
+        <style>
+            /* This is how a CSS comment looks */
+            /* Use to style the page */ 
+            body {
+                background-color: black;
+                color: white;
+            }
+            /* applied to the whole body section of document*/
+    
+        </style>
+        <link rel="style sheet" href="externalStyle.css"/>
+        <!-- external styling, rel attribute tells HTML what relation the css is to the document-->
+    </head>
+    <body>
+        <header> I am a header, used for navigation tabs </header>
+        <!-- h1-h6 bigger to smaller headings-->
+        <div> 
+            <!-- used to contain a set of child elements such as multiple paragraphs -->
+        </div>
+
+        <p style="background-color:black ">
+            <!-- attribute in html element, example here is inline styling (CSS) -->
+            <!-- other common attributes are id, class, name-->
+        </p>
+
+        <ul>
+            <!-- unordered lists, only has bullet points-->
+            <li> Add list items </li>
+            <li> second item </li>
+        </ul>
+
+        <ol>
+            <!-- ordered lists, has numbering -->
+        </ol>
+
+        <a href-"resume/resume.html" target="_blank"> I am a link   </a>
+            <!-- Add link to HTML document-->
+            <!-- target ensures the link opens in another tab-->
+     
+        <button> I am a button </button>
+        <script> console.log("I can only be seen in the developer console") </script>
+        <script src="tutorial.js"></script>
+        <!-- linking JS file to HTML document-->
+
+        <table border="1">
+            <tr> 
+                <!-- table row -->
+                <th> table header 1 </th>
+                <th> table header 2 </th>
+            </tr>
+            <tr> 
+                <td> creates table cells </td>
+            </tr>
+        </table>
+
+        <p>
+            I am a paragraph <br />
+            <!-- line break -->
+        </p>
+
+        <hr /> 
+        <!-- creates horizontal lines in HTML document, e.g., put between paragraphs-->
+
+        <img src="avatar.png" alt="guy leaning against a laptop" />
+        <!-- add an image, define src (location of image file, can be png, jpeg etc, needs to be in your directory)-->
+        <!-- alt sets to a certain message showing what is supposed to show up -->
+
+        <footer> I am a footer, such as contact me section </footer>
+    </body>
+    </html>
